@@ -1,0 +1,6 @@
+!) Download ngrok, from below website:
+https://dashboard.ngrok.com/get-started/setup
+2) Run the extracted application file and it will open a CMD window, now run the below command:
+  ngrok http 8080
+3) Then copy the public url which you have received after running the above command and paste it in webhook url on github
+4) Now commit something in that repo and you should see the webhook payload reponse in this application logs
